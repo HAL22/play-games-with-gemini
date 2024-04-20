@@ -1,0 +1,9 @@
+# Environments
+.myenv
+.venv
+.env
+myenv/
+venv/
+ENV/
+myenv.bak/
+myvenv.bak/

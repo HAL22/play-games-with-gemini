@@ -1,7 +1,8 @@
 from pydantic import BaseModel
+from typing import List
 
-class Board(BaseModel):
-    board: list[list[str]]
+class GameBoard(BaseModel):
+    board: List[List[int]]
 
 class Move(BaseModel):
     x1:int

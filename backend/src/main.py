@@ -15,7 +15,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/test")
-async def root():
+@app.post("/test")
+async def root(game_board: models.GameBoard):
+    print(game_board)
     move = models.Move(x1=5,y1=0,x2=4,y2=1)
     return move

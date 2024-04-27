@@ -6,7 +6,7 @@ import chatbot
 import utils
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCkeQ8hI4FCB9u4sDIJSMXeyGH8n13vScU"
+os.environ["GOOGLE_API_KEY"] = ""
 
 cbot = chatbot.ChatBot()
 

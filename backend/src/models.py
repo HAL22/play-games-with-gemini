@@ -3,6 +3,7 @@ from typing import List
 
 class GameBoard(BaseModel):
     board: List[List[int]]
+    error: str
 
 class Move(BaseModel):
     x1:int

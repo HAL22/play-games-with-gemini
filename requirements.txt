@@ -1,3 +1,5 @@
 langchain
 langchainplus-sdk
 langchain-google-genai
+fastapi
+uvicorn

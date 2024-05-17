@@ -7,7 +7,7 @@ import utils
 from typing import List
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyD7_i-0TvZnfY-p4rPgyQMWXOj18F-ScKA"
+# os.environ["GOOGLE_API_KEY"] = "here"
 
 cbot = chatbot.ChatBot()
 
